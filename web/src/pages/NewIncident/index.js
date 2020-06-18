@@ -15,7 +15,7 @@ export default function NewIncident(){
         <h1>Cadastrar novo caso</h1>
         <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
 
-        <Link className="black-link" to="/">
+        <Link className="black-link" to="/profile">
         <FiArrowLeft size={16} color="#e02041" />
         Voltar para home
         </Link>

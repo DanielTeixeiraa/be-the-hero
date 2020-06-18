@@ -1,5 +1,6 @@
 const connection = require('../database/connection');
 
+
 exports.index = async (req,res) =>{
   const {page = 1 } = req.query;
 
